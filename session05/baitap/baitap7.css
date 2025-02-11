@@ -1,0 +1,51 @@
+.but1{
+    background-color: rgb(108, 133, 70);
+    color: aliceblue;
+    border: none;
+}
+.but2{
+    background-color: yellow;
+    border: none;
+}
+.but3{
+    color: aliceblue;
+    background-color: red;
+    border: none;
+}
+
+.table {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 850px;
+    border: 0.5px solid white;
+
+}
+
+.heading {
+    background-color: rgb(86, 86, 244);
+    color: white;
+}
+
+.mid {
+    text-align: center;
+    font-size: 14px;
+}
+
+.row2 {
+    background-color: white;
+    color: black;
+}
+
+.row4 {
+    background-color: white;
+    color: black;
+}
+
+.caption {
+    padding-top: 10px;
+    font-size: large;
+    padding-bottom: 10px;
+}
+div{
+    background-color: rgb(184, 184, 184);
+}
