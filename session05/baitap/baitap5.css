@@ -1,0 +1,10 @@
+h2 {
+    color: rgb(75, 116, 220);
+}
+
+div {
+    width: 900px;
+    border-left: 7px solid rgb(255, 221, 0);
+    background-color: rgba(240, 244, 201, 0.912);
+    padding-left: 5px;
+}

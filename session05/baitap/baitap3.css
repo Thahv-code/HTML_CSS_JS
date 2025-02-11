@@ -1,0 +1,16 @@
+.main{
+    background-color: rgb(102, 113, 235);
+    color: aliceblue;
+    text-align: center;
+}
+.border{
+    background-color: rgb(209, 207, 207);
+    text-align: center;
+}
+.table{
+    width: 100%;
+    text-align: center;
+}
+.all{
+    background-color: rgba(234, 234, 234, 0.882);
+}
