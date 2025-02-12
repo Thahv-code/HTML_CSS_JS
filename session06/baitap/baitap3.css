@@ -1,0 +1,40 @@
+.tang1 {
+    background-color: rgb(105, 105, 105);
+    color: white;
+    display: inline-block;
+    width: 100%;
+
+}
+h1{
+    display: inline-block;
+    width:85%;
+}
+
+.tang2 {
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(199, 195, 190);
+}
+
+.tang4 {
+    text-align: center;
+    background-color: rgb(200, 199, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    width: 200px;
+    height: 50px;
+}

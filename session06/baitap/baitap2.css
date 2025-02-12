@@ -1,0 +1,22 @@
+.all{
+    background-color: rgb(181, 186, 186);
+        padding-top: 1px;
+        width: 220px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+}
+.small{
+    background-color: rgb(255, 255, 255);
+        width: 200px;
+        padding-left: 20px;
+        border-radius: 10px;
+}
+button{
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 170px;
+}
