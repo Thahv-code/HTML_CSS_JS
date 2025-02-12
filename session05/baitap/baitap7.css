@@ -1,13 +1,13 @@
-.but1{
+.button1{
     background-color: rgb(108, 133, 70);
     color: aliceblue;
     border: none;
 }
-.but2{
+.button2{
     background-color: yellow;
     border: none;
 }
-.but3{
+.button3{
     color: aliceblue;
     background-color: red;
     border: none;
