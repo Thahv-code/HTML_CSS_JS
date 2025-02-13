@@ -1,0 +1,23 @@
+.container {
+    text-align: right;
+    width: 35%;
+    padding: 100;
+    border: 100px;
+}
+
+.all {
+    widthheight: 100px;
+    background-color: gainsboro;
+    padding: 10px;
+}
+
+button {
+    width:400px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 30px;
+    margin-right: ;
+}
+h1{
+    color: red;
+}

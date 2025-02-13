@@ -1,0 +1,37 @@
+.div1 {
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    border: 0.5px solid #bdbdbd;
+}
+
+.div2 {
+    background-color: rgba(189, 217, 231, 0.722);
+    border: 0.5px solid #bdbdbd;
+    padding: 15px;
+}
+
+.div3 {
+    border: 0.5px solid #bdbdbd;
+    padding: 15px;
+}
+
+.div4 {
+    border-radius: 0 0 10px 10px;
+    border: 0.5px solid #bdbdbd;
+    padding: 15px;
+}
+
+p {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+span {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+i {
+    margin-left: 80%;
+    font-size: larger;
+}
