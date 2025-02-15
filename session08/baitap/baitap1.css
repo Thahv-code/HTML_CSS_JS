@@ -1,0 +1,46 @@
+.big {
+    text-align: center;
+
+}
+
+table {
+    width: 50%;
+    border: 1;
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+
+img {
+    width: 80%;
+}
+
+p {
+    margin: 20px auto;
+    width: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(92, 91, 91);
+    margin: 20px auto;
+    width: 90%;
+    font-size: larger;
+}
+
+h2 {
+    width: 90%;
+    margin: 20px auto;
+    color: rgb(28, 18, 65);
+}
+
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+tr,
+td {
+    border: 1px solid gray;
+}
