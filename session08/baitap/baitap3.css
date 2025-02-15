@@ -1,0 +1,53 @@
+.big {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    width: 175px;
+    padding: 10px 10px 10px 0;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid orangered;
+}
+
+img {
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+    width: 290px;
+    color: gray;
+}
+
+button {
+    border: 1px solid orangered;
+    background-color: white;
+    border-radius: 4px;
+    height: 40px;
+    width: 100px;
+    color: orangered;
+}
+
+table {
+    width: 70%;
+}
+
+.hi {
+    border-right: 1px solid gray;
+}
+
+.big {
+    margin-top: -30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+img{
+    width: 30%;
+}

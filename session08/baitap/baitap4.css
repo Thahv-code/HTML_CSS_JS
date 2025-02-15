@@ -1,0 +1,39 @@
+.big {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    border-bottom: 3px solid orangered;
+    width: 150px;
+    margin-left: 30px;
+}
+
+.small {
+    border: 1px solid gray;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    transform: rotate(45deg);
+}
+
+.icon {
+    margin-top: 18px;
+    font-size: 30px;
+    color: orangered;
+    transform: rotate(-45deg);
+}
+
+h3 {
+    margin-left: 30px;
+}
+
+p {
+    color: gray;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+table {
+    width: 70%;
+    margin-left: 30px;
+}
