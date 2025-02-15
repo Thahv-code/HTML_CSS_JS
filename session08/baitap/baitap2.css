@@ -1,0 +1,47 @@
+.all {
+    color: white;
+    width: 50%;
+    height: 370px;
+    background-color: rgb(106, 70, 140);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    width: 100%;
+}
+
+input {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgb(106, 70, 140);
+}
+
+label {
+    margin: 20px;
+}
+
+textarea {
+    width: 90%;
+    margin-left: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgb(106, 70, 140);
+    margin-bottom: 30px;
+    height: 100px;
+}
+
+button {
+    background-color: white;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+}
