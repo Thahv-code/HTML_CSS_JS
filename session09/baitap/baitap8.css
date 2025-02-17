@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    font: 1em sans-serif;
+}
+
+.head {
+    background-color: black;
+    color: white;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    margin: 7px;
+
+    color: white;
+}
+
+.mid1 {
+    background-color: rgb(205, 205, 205);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h3 {
+    margin: 30px 0 20px 0;
+}
+
+p {
+    margin-top: 20px;
+    color: gray;
+    padding-bottom: 30px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.mid2 {
+    text-align: center;
+}
+
+.small {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: rgb(206, 205, 205);
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.mid3 {
+    background-color: rgb(189, 187, 187);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

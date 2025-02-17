@@ -1,0 +1,45 @@
+.all {
+    color: white;
+}
+
+.row1 {
+
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.row2 {
+    margin: 0 10px 10px 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.big {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(47, 52, 98);
+}
+
+.small {
+
+    flex-wrap: wrap;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    height: 10%;
+
+}
+
+.a {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    background-color: rgb(47, 52, 98);
+}

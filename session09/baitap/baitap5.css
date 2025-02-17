@@ -1,0 +1,44 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    color: aliceblue;
+    width: 200px;
+    height: 60px;
+    border-radius: 4px;
+
+}
+
+
+.row1 {
+    display: flex;
+    gap: 30px;
+}
+
+.row2 {
+    justify-content: space-between;
+    display: flex;
+}
+.aa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    color: aliceblue;
+    width: 200px;
+    height: 60px;
+    border-radius: 4px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
