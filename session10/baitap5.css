@@ -21,14 +21,14 @@
 h2 {
     margin-top: 20px;
     margin-left: 15px;
-    color: rgb(126, 176, 222);
+    color: rgb(30, 43, 55);
 }
 
 button {
     margin-top: 20px;
     margin-bottom: 20px;
     color: rgb(77, 77, 78);
-    background-color:rgb(126, 176, 222);
+    background-color: rgb(130, 159, 186);
     width: 50px;
     height: 19px;
     border: none;
@@ -38,11 +38,13 @@ button {
 }
 
 span {
-color: rgb(126, 176, 222);    margin-left: 20px;
+    color: rgb(30, 43, 55);
+    margin-left: 20px;
 }
 
 p {
-color: rgb(126, 176, 222);    margin-left: 15px;
+    color: rgb(30, 43, 55);
+    margin-left: 15px;
     width: 600px;
 }
 
