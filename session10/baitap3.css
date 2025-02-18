@@ -1,0 +1,40 @@
+.container {}
+
+.content1 {}
+
+.img1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.img2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.content2 {
+    margin-top: 20px;
+
+}
+.text{
+    position: relative;bottom: 30px; left: 50px;
+}
+p{
+    opacity: 0.5;
+}
+.content5 {
+    opacity: 0.5;
+}
+.button{
+    position: absolute;
+    left: 400px;
+    top: 40px;
+    width:100px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
