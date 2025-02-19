@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            height: 60px;
+            background-color: red;
+        }
+
+
+
+        button {
+            width: 9%;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+        }
+
+        input[type="text"] {
+            width: 90%;
+            border-radius: 5px;
+        }
+        header{
+            flex-direction: column; 
+            display: flex;
+            justify-content: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            .header {
+                background-color: rgb(23, 255, 15);
+                
+            }
+                   button {
+            width: 60px;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+        }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <input type="text">
+        <button>tim kiem</button>
+    </div>
+</body>
+
+</html>
