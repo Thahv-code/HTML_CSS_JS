@@ -1,0 +1,158 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content1 {
+    gap: 20px;
+    display: flex;
+    width: 57px;
+    height: 43px;
+    position: relative;
+    top: 27px;
+    left: 865px;
+    font-weight: 500px;
+    font-size: 20px;
+
+}
+
+.picture {
+    border-radius: 50%;
+    width: 243px;
+    height: 243px;
+    position: relative;
+    top: 210px;
+    left: 760px;
+}
+
+.text1 {
+    font-weight: 700;
+    font-size: 44px;
+    position: absolute;
+    width: 506px;
+    height: 105px;
+    top: 228px;
+    left: 148px;
+
+}
+
+.text2 {
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    width: 497px;
+    height: 66px;
+    top: 373px;
+    left: 148px;
+}
+
+.buttonmain1 {
+    color: white;
+    width: 208px;
+    height: 47px;
+    border: 2px;
+    background: #FF6464;
+    position: absolute;
+    top: 477px;
+    left: 148px;
+}
+
+.body {
+    width: 1152px;
+    height: 396px;
+    background-color: #e1f4fa;
+    position: relative;
+    top: 300px;
+}
+
+.content3 {
+    gap: 320px;
+    display: flex;
+    height: 43px;
+    position: relative;
+    top: 27px;
+    left: 35px;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.bodycontent1 {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 418px;
+    position: absolute;
+    height: 295px;
+    top: 70px;
+    left: 50px;
+}
+
+.bodycontent2 {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 418px;
+    position: absolute;
+    height: 295px;
+    top: 70px;
+    left: 620px;
+}
+
+.item {
+    margin-top: 300px;
+    border-bottom: 2px solid rgb(228, 226, 226);
+    background-color: rgb(255, 255, 255);
+
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 15px;
+    color: rgb(30, 43, 55);
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(77, 77, 78);
+    background-color: rgb(130, 159, 186);
+    width: 50px;
+    height: 19px;
+    border: none;
+    border-radius: 13px;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+span {
+    color: rgb(30, 43, 55);
+    margin-left: 20px;
+}
+
+p {
+    color: rgb(30, 43, 55);
+    margin-left: 15px;
+    width: 600px;
+}
+
+img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+}
+
+.item1 {
+    text-align: center;
+}
+
+.icon {
+    margin-top: 80px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.final {
+    margin-bottom: 20px;
+}
