@@ -1,0 +1,12 @@
+let num1 = +prompt("Mời bạn nhập số thứ 1");
+let num2 = +prompt("Mời bạn nhập số thứ 2");
+let num3 = +prompt("Mời bạn nhập số thứ 3");
+let num4 = +prompt("Mời bạn nhập số thứ 4");
+let num5 = +prompt("Mời bạn nhập số thứ 5");
+let sum = 0;
+if (num1 % 2 !== 0) sum += num1;
+if (num2 % 2 !== 0) sum += num2;
+if (num3 % 2 !== 0) sum += num3;
+if (num4 % 2 !== 0) sum += num4;
+if (num5 % 2 !== 0) sum += num5;
+console.log("Tổng các số lẻ là: " + sum);
