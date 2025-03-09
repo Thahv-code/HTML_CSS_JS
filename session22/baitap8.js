@@ -1,16 +1,16 @@
-let arr = [1, 4, 7, 7, 3, 3, 3, 5, 7, 9, 3, 4];
-let max = arr[0];
-let countMax = 0;
-for (let num of arr) {
+let arr = [5,5,5,5,9,9,9,9,9]; 
+let maxCount = 0;
+let minElement;
+let number = 0;
+for (let i = 0; i < number.length;i++) {
     let count = 0;
-    for (let numCp of arr) {
-        if (num == numCp) {
+    for (let j = 0; j < 10; j++) {
+        if (arr[i]==arr[j]) {
             count++;
         }
     }
-    if (count > countMax) {
-        max = num;
-        countMax = count;
+    if (count > maxCount) {
+        maxCount = count;
     }
 }
-document.write(max, ", ", countMax);
+document.write(maxCount);
