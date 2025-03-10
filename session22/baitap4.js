@@ -1,6 +1,5 @@
 let daySo = prompt("Nhập vào một dãy số:");
-
-if (!/^\d+$/.test(daySo)) {
+if (!regex.test(daySo)) {
     console.log("Dãy số không hợp lệ!");
 } else {
     let mangSo = daySo.split("");
