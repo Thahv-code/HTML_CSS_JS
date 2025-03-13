@@ -9,7 +9,7 @@ function matkhau(password) {
     }
 
     if (password[i] >= "a" && password[i] <= "z") {
-      wordCount++;
+      wordCount++; =>
     }
     if (password[i] >= "A" && password[i] <= "Z") {
       CapwordCount++;
