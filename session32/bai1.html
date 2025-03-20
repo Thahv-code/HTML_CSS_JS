@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="changecolor()">Change Background Color</button>
+    <script>
+        function changecolor() {
+            let numberA = Math.floor(Math.random() * 255); 
+            let numberB = Math.floor(Math.random() * 255); 
+            let numberC = Math.floor(Math.random() * 255); 
+
+            document.body.style.backgroundColor = `rgb(${numberA}, ${numberB}, ${numberC})`;
+        }
+    </script>
+</body>
+</html>

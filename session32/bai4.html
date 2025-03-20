@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input {
+            padding: 10px;
+            width: 300px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .message {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .valid {
+            color: green;
+        }
+        .invalid {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kiểm tra email</h1>
+    <input type="text" id="email" placeholder="Nhập địa chỉ email" />
+    <button onclick="validateEmail()">Check</button>
+    <div id="message" class="message"></div>
+
+    <script>
+        function validateEmail() {
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message");
+
+            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|vn)$/;
+            if (emailRegex.test(email)) {
+                message.textContent = "Email hợp lệ!";
+                message.className = "message valid";
+            } else {
+                message.textContent = "Email không hợp lệ!";
+                message.className = "message invalid";
+            }
+        }
+    </script>
+</body>
+</html>

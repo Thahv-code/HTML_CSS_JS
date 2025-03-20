@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Image Size</title>
+    <style>
+      .contain img {
+        width: 300px; 
+      }
+      button {
+        margin: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contain">
+      <img id="image" src="https://i.pinimg.com/736x/78/ff/12/78ff129a5c1905da8abe4e02c73b6377.jpg" alt="Sample Image">
+      <button onclick="changeImageSize('increase')">Tăng kích thước</button>
+      <button onclick="changeImageSize('decrease')">Giảm kích thước</button>
+    </div>
+    <script>
+      function changeImageSize(action) {
+        const imageElement = document.getElementById("image");
+        let currentWidth = parseInt(window.getComputedStyle(imageElement).width);
+
+        if (action === "increase") {
+          imageElement.style.width = (currentWidth + 20) + "px"; 
+        } else if (action === "decrease") {
+          imageElement.style.width = (currentWidth - 20) + "px"; 
+        }
+      }
+    </script>
+  </body>
+</html>

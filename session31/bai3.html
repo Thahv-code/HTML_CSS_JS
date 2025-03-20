@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg_green {
+            background-color:green;
+        }
+        .bg_red {
+            background-color: red;
+        }
+        .bg_purple {
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <p>Change background-color</p>
+        <p>Mouse Click</p>
+        <button class="greenmode" onclick="green()">Xanh</button>
+        <button class="redmode" onclick="red()">Đỏ</button>
+        <button class="purplemode" onclick="purple()">Tím</button>
+    </div>
+    <script>
+        function green() {
+            document.body.classList.toggle('bg_green');
+        }
+        function red() {
+            document.body.classList.toggle('bg_red');
+        }
+        function purple() {
+            document.body.classList.toggle('bg_purple')
+        }
+    </script>
+</body>
+</html>

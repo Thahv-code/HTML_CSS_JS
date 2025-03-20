@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject List</title>
+</head>
+<body>
+    <input type="text" id="inputText" placeholder="Thêm môn học">
+    <button onclick="addSubject()">Thêm môn học</button>
+    <ul id="subjectList"></ul>
+
+    <script>
+        let list = ["Toán", "Lý", "Hóa"];
+
+        function displaySubjects() {
+            const subjectList = document.getElementById("subjectList");
+            subjectList.innerHTML = "";
+            list.forEach(subject => {
+                const li = document.createElement("li");
+                li.textContent = subject;
+                subjectList.appendChild(li);
+            });
+        }
+
+        function addSubject() {
+            const input = document.getElementById("inputText");
+            const newSubject = input.value.trim();
+            if (newSubject) {   
+                list.push(newSubject); 
+                input.value = ""; 
+                displaySubjects(); 
+            }
+        }
+
+        displaySubjects();
+    </script>
+</body>
+</html>

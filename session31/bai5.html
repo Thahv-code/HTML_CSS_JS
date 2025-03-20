@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <label>user name:</label><br>
+        <input id="he" type="text"><br>
+        <label for="">password:</label><br>
+        <input id="ha" type="password"><br>
+        <input onclick="check()" type="submit" value="login">
+      </form>
+    </div>
+
+    <script>
+        
+        function check(){
+            event.preventDefault();
+            let user="huanrose@gmail.com"
+            let pass="123456";
+            let userCheck=document.getElementById("he").value;
+            let passCheck=document.getElementById("ha").value;
+            if(userCheck==user&&passCheck==pass){
+                console.log("Đăng nhập thành công");
+                
+            }else{
+                console.log("Sai email hoặc mật khẩu");
+                
+            }
+            
+        }
+    </script>
+  </body>
+</html>

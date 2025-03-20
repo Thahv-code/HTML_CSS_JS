@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="myDIV" class="header">
+      <h2 style="margin: 5px">My To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title..." />
+      <button onclick="addJobs()" class="addBtn">Add</button>
+      <button onclick="removeJobs()" class="removeBtn">Remove</button>
+    </div>
+    <ul id="myUL"></ul>
+    <script>
+      let todoList = [
+        {
+          id: 1,
+          task: "Hit the gym",
+          completed: false,
+        },
+        {
+          id: 2,
+          task: "Pay bills",
+          completed: true,
+        },
+        {
+          id: 3,
+          task: "Meet george",
+          completed: false,
+        },
+        {
+          id: 4,
+          task: "Buy eggs",
+          completed: false,
+        },
+        {
+          id: 5,
+          task: "Read a book",
+          completed: false,
+        },
+        {
+          id: 6,
+          task: "Organize office",
+          completed: false,
+        },
+      ];
+      function addJobs  () {
+        let value = document.getElementById("myInput").value.trim();
+        let input = document.getElementById("myUL");
+        let found = todoList.find(
+          (item) => item.task.toLowerCase() === value.toLowerCase()
+        );
+        if (found) {
+          let listItem = document.createElement("li");
+          listItem.textContent = found.task;
+
+          if (found.completed) {
+            listItem.classList.add("checked");
+          }
+          input.appendChild(listItem);
+        }
+      }
+      function deleteJobs(id) {
+        console.log("gọi hàm xóa!", id);
+        let index = jobs.findIndex((item) => item.id == id);
+        jobs.splice(index, 1);
+        renderJobs();       
+      }
+
+    </script>
+  </body>
+</html>

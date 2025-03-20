@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <div id="title" class="title">This is a text</div>
+    <button onclick="hidetext()">Hide text</button>
+    <button onclick="showtext()">Show text</button>
+    <script>
+      function hidetext() {
+        document.getElementById("title").style.visibility = "hidden";
+      }
+      function showtext() {
+        document.getElementById("title").style.visibility = "visible";
+      }
+    </script>
+  </body>
+</html>

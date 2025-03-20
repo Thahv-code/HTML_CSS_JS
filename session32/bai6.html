@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Font Size</title>
+    <style>
+      .content {
+        font-size: 16px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contain">
+      <p id="text">Chữ sẽ thay đổi kích thước khi bấm nút</p>
+      <button onclick="changeFontSize('increase')">Tăng kích cỡ</button>
+      <button onclick="changeFontSize('decrease')">Giảm kích cỡ</button>
+    </div>
+    <script>
+      function changeFontSize(a) {
+        const textElement = document.getElementById("text");
+        let currentSize = parseInt(window.getComputedStyle(textElement).fontSize);
+
+        if (a === "increase") {
+          textElement.style.fontSize = currentSize + 2 + "px";
+        } else if (a === "decrease") {
+          textElement.style.fontSize = currentSize - 2 + "px";
+        }
+      }
+    </script>
+  </body>
+</html>
