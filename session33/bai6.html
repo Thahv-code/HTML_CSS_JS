@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ứng dụng thời tiết</h1>
+      <div class="search">
+        <input id="search" type="text" />
+        <button onclick="search()">Tìm kiếm</button>
+        <div id="list" class="list"></div>
+      </div>
+    </div>
+    <script>
+      const weatherData = {
+        "Hà Nội": {
+          temperature: 25,
+          humidity: 70,
+          windSpeed: 5,
+          description: "Có mây",
+          icon: "☁️",
+        },
+        "Hồ Chí Minh": {
+          temperature: 32,
+          humidity: 75,
+          windSpeed: 7,
+          description: "Nắng",
+          icon: "☀️",
+        },
+        "Đà Nẵng": {
+          temperature: 28,
+          humidity: 82,
+          windSpeed: 12,
+          description: "Mưa rào",
+          icon: "🌧️",
+        },
+      };
+      function search() {
+        let value = document.getElementById("search").value;
+        let list=document.getElementById("list")
+
+       for (let key in weatherData) {
+          if (key.toLowerCase().includes(value.toLowerCase())) {
+            let data = weatherData[key];
+
+            list.innerHTML += `
+              <div class="weather-box">
+                <h2>${key} ${data.icon}</h2>
+                <p>🌡 Nhiệt độ: ${data.temperature}°C</p>
+                <p>💧 Độ ẩm: ${data.humidity}%</p>
+                <p>🌬️ Tốc độ gió: ${data.windSpeed} km/h</p>
+                <p>📖 Mô tả: ${data.description}</p>
+              </div>
+            `;
+          }  
+        }
+      }
+    </script>
+  </body>
+</html>

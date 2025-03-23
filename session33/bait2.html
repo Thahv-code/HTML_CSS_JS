@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <textarea name="" id="text"></textarea>
+      <p id="length"></p>
+      <button onclick="check()">Check</button>
+    </div>
+    <script>
+      function check() {
+        let input = document.getElementById("text").value;
+        let show = document.getElementById("length");
+        console.log(input);
+    
+        show.innerHTML = input.length + " ki tu";
+      }
+    </script>
+  </body>
+</html>

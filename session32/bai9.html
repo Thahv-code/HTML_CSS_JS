@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <progress id="progress" max="100">Thanh tiến trình</progress>
+    <button onclick="tang ()">Tăng</button>
+    <button onclick="giam">GIảm</button>
+<script>
+    let vallueProgress = 0;
+    function tang() {
+        vallueProgress +=10;
+        document.getElementById("progress").value=vallueProgress;
+    }
+    function giam() {
+        vallueProgress -=10;
+        document.getElementById("progress").value=vallueProgress;
+    }
+</script>
+</body>
+</html>
