@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .enter {
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        position: absolute;
+        bottom: px;
+      }
+      .hello {
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        position: absolute;
+        top: 200px;
+      }
+      button{
+        background-color: rgb(127, 168, 255);
+        border-radius: 5px;
+        border: 0px;
+        color: aliceblue    ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="enter">
+      <h1>Nhập tên của bạn</h1>
+      <input type="text" />
+      <button id="add" onclick="save()">Lưu</button>
+    </div>
+    <div class="hello">
+      <h1>👋 Chào bạn,</h1>
+      <button>Đổi tên</button>
+    </div>
+    <script>
+      function save() {
+        let inputValue = document.querySelector('input[type="text"]').value;
+        let savedNames = JSON.parse(localStorage.getItem("save")) || [];
+        savedNames.push(inputValue);
+        localStorage.setItem("save", JSON.stringify(savedNames));
+      }
+    </script>
+  </body>
+</html>
+  

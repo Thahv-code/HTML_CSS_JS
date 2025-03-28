@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .contain {
+        /* background-color: #7c59b0; */
+      }
+      .addbookmark {
+        position: absolute;
+        top: 200px;
+        left: 500px;
+        border: 1px solid;
+        width: 400px;
+        display: none; /* Initially hidden */
+      }
+      input {
+        width: 390px;
+      }
+      .exit {
+        position: absolute;
+        left: 376px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contain">
+      <button onclick="add()">ADD BOOKMARK</button> <br />
+      <div class="addbookmark">
+        <button class="exit">X</button>
+        <h4>ADD BOOKMARK</h4>
+        <label for="">Website Name</label><br />
+        <input type="text" /><br />
+        <label for="">Website URL</label><br />
+        <input type="text" /><br /><br />
+        <button>Save</button>
+      </div>
+    </div>
+    <script>
+      function add() {
+        document.getElementsByClassName("addbookmark")[0].style.display = "block";
+      }
+      document.querySelector('.exit').addEventListener('click', () => {
+        document.getElementsByClassName("addbookmark")[0].style.display = "none";
+      });
+    </script>
+  </body>
+</html>

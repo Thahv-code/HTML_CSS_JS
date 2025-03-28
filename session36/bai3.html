@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg_blue {
+            background-color: rgb(28, 213, 213);
+        }
+        .bg_red {
+            background-color: red;
+        }
+        .bg_purple {
+            background-color: purple;
+        }
+        .bg_yellow {
+            background-color: yellow;
+        }
+        .contain {
+            text-align: center;
+        }
+        .yellowmode {
+            border-radius: 5px;
+            background-color: yellow;
+        }
+        .redmode {
+            border-radius: 5px;
+            background-color: red;
+        }
+        .bluemode {
+            border-radius: 5px;
+            background-color: rgb(28, 213, 213);
+        }
+        .purplemode {
+            border-radius: 5px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <p>Chọn màu nền bạn yêu thích</p>
+        <button class="yellowmode" onclick="changeColor('bg_yellow')">Vàng</button>
+        <button class="bluemode" onclick="changeColor('bg_blue')">Xanh</button>
+        <button class="redmode" onclick="changeColor('bg_red')">Đỏ</button>
+        <button class="purplemode" onclick="changeColor('bg_purple')">Tím</button>
+        <p>Trang sẽ ghi nhớ màu bạn chọn kể cả khi đã tải lại</p>
+    </div>
+    <script>
+        document.body.className = localStorage.getItem('backgroundColor') || '';
+        function changeColor(colorClass) {
+            document.body.className = colorClass;
+            localStorage.setItem('backgroundColor', colorClass);
+        }
+    </script>
+</body>
+</html>
